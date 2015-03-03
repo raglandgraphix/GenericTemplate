@@ -1,0 +1,68 @@
+/*Sass Template*/
+/* This is the Sass/css template for Ragland Graphix any intentional reproduction is strictly forbidden.  */
+/*fonts are controled by fonts.com*/
+
+//example ruby input c:\Users\johnr\Desktop\EndicottMain\www\css>sass --watch sass/endicottDocumentName.scss:endicottDocumentName.css
+
+$sun:#e3b043; // rgb = 228,176,66 : pantone = 142 : cmyk = 11,31,86,0 ; rarely used
+$water:#0067ab;//rgb = 0,103,171 : pantone = 7462 :cmyk = 100,50,0,10  : used mostly on face brick pricelists
+$wind:#919018;//rgb = 130,12,135 : pantone = cool grey 8 : cmyk = 4,6,0,47 : used rarely
+$foliage:#53774b;//rgb = 102,142,91 : pantone = 74909 : cmyk = 64,27,78,27 : used mostly on tile pricelists
+$sand:#ecd5af;//rgb = 236,213,175 : pantone = 155 :cmyk = 7,14,33,0 : used as backgrounds on ads and some website
+$canyon:#8e2812;//rgb = 182,114,55 : pantone = 730 :cmyk = 0,47,78,31 : complimenatry color to Endicott Clay. used most on paver and pool coping pricelists
+$frost:#695f7c;//rgb = 105,95,124 : pantone = 667 : cmyk = 55,56,23,24 : never seen this used
+$earth:#70633b;//rgb = 112,99,59 : pantone = 871 : cmyk = 0,12,48,56 : never seen this used
+$fire:#9d102d;//rgb = 157,16,45 : pantone = 7427 : cmyk = 25,100,83,21 : the only time this really gets used is on thinbrick pricelists and information pertaining to thin brick.
+$endicottClay:#a24a13;//rgb = 162,74,19 : pantone = 1605 : cmyk 26,78,100,19 : this is used as the basis for most literature and websites
+$black:#000000;//rgb = 100,100,100 : pantone = black : cmyk = 30,30,30,100
+$white:#ffffff;//rgb = 0,0,0 : panotne = white : cmyk = 0,0,0,0
+
+/*fonts for endicott pages*/
+
+
+@font-face{
+font-family:'endicottBook';//this names the font
+src:url("../fonts/itcLegacySansBook.eot");//this is the source for the ie9 and ie10 browsers
+src:url("../fonts/itcLegacySansBook.eot?#iefix")format("embedded-opentype"),//this is the source for the ie8 and below browsers
+    url("../fonts/itcLegacySansBook.woff")format("woff"),//this source should work with all the other browsers
+    url("../fonts/itcLegacySansBook.ttf")format("truetype"),// this source should work with all the other browsers
+    url("../fonts/itcLegacySansBook.svg")format("svg");//this source should make sure safari src works
+
+}
+
+/*font face makes a web font for ITC Legacy Sans Medium*/
+
+@font-face{
+font-family:'endicottMedium';//this names the font
+src:url("../fonts/itcLegacySansMedium.eot");//this is the source for the ie9 and ie10 browsers
+src:url("../fonts/itcLegacySansMedium.eot?#iefix")format("embedded-opentype"),//this is the source for the ie8 and below browsers
+    url("../fonts/itcLegacySansMedium.woff")format("woff"),//this source should work with all the other browsers
+    url("../fonts/itcLegacySansMedium.ttf")format("truetype"),// this source should work with all the other browsers
+    url("../fonts/itcLegacySansMedium.svg")format("svg");//this source should make sure safari src works
+
+}
+
+/*font face makes a web font for ITC Legacy Sans Bold*/
+
+@font-face{
+font-family:'endicottBold';//this names the font
+src:url("../fonts/itcLegacySansBold.eot");//this is the source for the ie9 and ie10 browsers
+src:url("../fonts/itcLegacySansBold.eot?#iefix")format("embedded-opentype"),//this is the source for the ie8 and below browsers
+    url("../fonts/itcLegacySansBold.woff")format("woff"),//this source should work with all the other browsers
+    url("../fonts/itcLegacySansBold.ttf")format("truetype"),// this source should work with all the other browsers
+    url("../fonts/itcLegacySansBold.svg")format("svg");//this source should make sure safari src works
+
+}
+
+/*generic page formatting*/
+
+/* This CSS Centers the Page*/
+
+
+body{
+  text-align:center;
+  background-color:$black;
+   
+  
+   
+}
